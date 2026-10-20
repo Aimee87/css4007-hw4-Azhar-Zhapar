@@ -10,9 +10,16 @@
 
 ### A1 — The steps
 
+Q-09: Which district has the higher population density in 2025, Brightwater or Millbrook, and by how many residents per square kilometre?
+
 | # | Step | What goes in (types) | What comes out (types) | When it goes wrong | Tool, loop, or model? |
 |---|---|---|---|---|---|
-| 1 | | | | | |
+| 1 |Identify the regions and the required metric from the question| | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| 4 | | | | | |
+| 5 | | | | | |
+| 6 | | | | | |
 
 **How the steps connect:**
 
