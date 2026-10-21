@@ -66,10 +66,14 @@ Output Step 2 = Input Step 3 etc.
 
 | Case | What the tool returns |
 |---|---|
-| success | |
-| | |
+|success|{"value": 44675, "source":"NR-05"}|
+|district not found|{"error":"district not found"}|
+|multiple matches found|{"error":"ambiguous district name"}|
+|field not found|{"error":"field not found"}|
+|archived profile requested|Returns the latest valid profile instead|
 
 **Worst thing it could do with strange or dangerous input:**
+Return incorrect or ambiguous facts. To reduce this risk, archived profiles are ignored and correction notices take precedence over original profiles.
 
 #### `calculate`
 
