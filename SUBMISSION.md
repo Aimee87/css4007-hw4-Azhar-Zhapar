@@ -31,16 +31,20 @@ Output Step 2 = Input Step 3 etc.
 
 **What I am assuming:**
 |The latest (2025) district profiles are used by default|
-|Archived profiles are ignored|
-|Correction notices override information in district profiles|
-|Unit conversions are performed when necessary|
-|Arithmetic calculations are performed by the calculate tool|
-|Rounding is applied only to the final answer|
-|Each fact returned by lookup includes its source document ID|
-|Questions are answered using only the provided documents|
 
-| 6 |Compare calculated values|
-| 7 |Generate final answer|
+|Archived profiles are ignored|
+
+|Correction notices override information in district profiles|
+
+|Unit conversions are performed when necessary|
+
+|Arithmetic calculations are performed by the calculate tool|
+
+|Rounding is applied only to the final answer|
+
+|Each fact returned by lookup includes its source document ID|
+
+|Questions are answered using only the provided documents|
 
 ### A2 — The two tools
 
