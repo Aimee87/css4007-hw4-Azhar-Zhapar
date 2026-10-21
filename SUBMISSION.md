@@ -15,11 +15,12 @@ Q-09: Which district has the higher population density in 2025, Brightwater or M
 | # | Step | What goes in (types) | What comes out (types) | When it goes wrong | Tool, loop, or model? |
 |---|---|---|---|---|---|
 | 1 |Identify the regions and the required metric from the question|question: str|districts: list[str], metric: str|District not recognised; Metric not recognised|Model|
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 2 |Retrieve required facts from documents|District names and required fields|Population, area and source document IDs|District not found; Multiple matches found|lookup tool|
+| 3 |Apply corrections and validation rules|Retrieved facts|Corrected and validated facts|Conflicting values; Unknown unit|lookup tool|
+| 4 |Build arithmetic expressions|Validated facts|expression: str|Missing data required for calculation|Model|
+| 5 |Execute calculations|expression: str|result: float|Division by zero; Invalid expression|calculate tool|
+| 6 |Compare calculated values|Calculated results|District with higher value and difference|Missing calculation result|Model|
+| 7 |Generate final answer|Comparison result|Final answer|Insufficient information|Model|
 
 **How the steps connect:**
 
