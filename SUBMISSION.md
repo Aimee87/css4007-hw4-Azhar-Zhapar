@@ -14,7 +14,7 @@ Q-09: Which district has the higher population density in 2025, Brightwater or M
 
 | # | Step | What goes in (types) | What comes out (types) | When it goes wrong | Tool, loop, or model? |
 |---|---|---|---|---|---|
-| 1 |Identify the regions and the required metric from the question| | | | |
+| 1 |Identify the regions and the required metric from the question|question: str|districts: list[str], metric: str|District not recognised; Metric not recognised|Model|
 | 2 | | | | | |
 | 3 | | | | | |
 | 4 | | | | | |
