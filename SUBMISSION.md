@@ -30,22 +30,14 @@ Output Step 1 = Input Step 2
 Output Step 2 = Input Step 3 etc.
 
 **What I am assuming:**
-
-The latest (2025) district profiles are used by default
-
-Archived profiles are ignored
-
-Correction notices override information in district profiles
-
-Unit conversions are performed when necessary
-
-Arithmetic calculations are performed by the calculate tool
-
-Rounding is applied only to the final answer
-
-Each fact returned by lookup includes its source document ID
-
-Questions are answered using only the provided documents
+| Assumption | Explanation |
+|------------|-------------|
+| The latest (2025) district profiles are used by default. | The district profiles contain 2025 data unless stated otherwise. |
+| Archived profiles are ignored. | Archived profiles have been superseded by newer profiles. |
+| Correction notices override profile values. | If a correction notice exists, its value is used instead of the original profile value. |
+| Unit conversions are performed when necessary. | Different documents may use different units, such as megalitres and cubic metres. |
+| Arithmetic calculations are performed by the calculate tool. | This reduces numerical mistakes made by the model. |
+| Rounding is applied only to the final answer. | This avoids accumulating rounding errors during calculations. |
 
 ### A2 — The two tools
 
