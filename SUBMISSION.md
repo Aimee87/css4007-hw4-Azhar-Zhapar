@@ -24,8 +24,10 @@ Q-09: Which district has the higher population density in 2025, Brightwater or M
 
 **How the steps connect:**
 The output of each step becomes the input of the next step. This creates a clear workflow from question understanding to fact retrieval, calculation and final answer generation.
+
 Output Step 1 = Input Step 2
-Output Step 2 = Input Step 3
+
+Output Step 2 = Input Step 3 etc.
 
 **What I am assuming:**
 
