@@ -39,6 +39,8 @@ Output Step 2 = Input Step 3 etc.
 |Each fact returned by lookup includes its source document ID|
 |Questions are answered using only the provided documents|
 
+| 6 |Compare calculated values|
+| 7 |Generate final answer|
 
 ### A2 — The two tools
 
