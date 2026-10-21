@@ -23,8 +23,9 @@ Q-09: Which district has the higher population density in 2025, Brightwater or M
 | 7 |Generate final answer|Comparison result|Final answer|Insufficient information|Model|
 
 **How the steps connect:**
-
-<!-- which step feeds which: a list, an ASCII diagram, or an image committed to the repo -->
+The output of each step becomes the input of the next step. This creates a clear workflow from question understanding to fact retrieval, calculation and final answer generation.
+Output Step 1 = Input Step 2
+Output Step 2 = Input Step 3
 
 **What I am assuming:**
 
