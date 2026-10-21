@@ -43,7 +43,25 @@ Output Step 2 = Input Step 3 etc.
 
 #### `lookup`
 
-```json
+```
+{
+  "name": "lookup",
+  "description": "Retrieve facts from Nine Rivers Region documents. Returns facts together with source document IDs. Ignores archived profiles and applies correction notices when available.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "district": {
+        "type": "string",
+        "description": "District name"
+      },
+      "field": {
+        "type": "string",
+        "description": "Requested field such as population, area, budget, water_use, schools, pupils or roads"
+      }
+    },
+    "required": ["district", "field"]
+  }
+}
 ```
 
 | Case | What the tool returns |
