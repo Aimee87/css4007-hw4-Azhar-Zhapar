@@ -220,7 +220,7 @@ I did not choose this because it would be harder to find errors. Using two tools
 
 ### What I changed from Part A while coding:
 
-No significant changes were made. The implementation followed the design described in Part A.
+Some changes were made during implementation. The lookup tool uses keyword-based text search instead of retrieving specific fields. I also added safety checks and error handling to the calculate tool.
 
 ### B1 — Build
 
